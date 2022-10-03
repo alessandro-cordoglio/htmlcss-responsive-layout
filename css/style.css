@@ -1,2 +1,54 @@
 @import url(reset.css);
 @import url(common.css);
+@import url(variables.css);
+
+/* DEBUG */
+.debug-cards{
+    height: 500px;
+}
+/* HEADER */
+header{
+    background-color: var(--blue);
+    padding: 20px;
+}
+.logo-row{
+    justify-content: space-between;
+}
+.header-nav{
+    display: none;
+}
+.header-nav li{
+    margin-left: 20px;
+}
+
+/* MAIN */
+.hl-card{
+    background-color: var(--blue-light);
+    margin-top: 25px;
+}
+
+.highlights-row{
+    padding-bottom: 100px ;
+    padding-top: 25px ;
+}
+/* RESPONSIVE */
+    /* header-responsive */
+@media screen and (min-width:769px) {
+    .hamburger-button{
+        display: none;
+    }
+    .header-nav{
+        display: block;
+    }
+}
+    /* main-responsive */
+@media screen and (min-width:436px){
+    .hl-card{
+        width:calc(33.3% - 10px);
+        margin-left: 10px;
+    }
+    .hl-card:first-child{
+        width:calc(66.6% - 10px);
+    }
+
+}
