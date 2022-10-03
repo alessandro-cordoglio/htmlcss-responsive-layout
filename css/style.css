@@ -3,7 +3,7 @@
 @import url(variables.css);
 
 /* DEBUG */
-.debug-cards{
+.debug .hl-card{
     height: 500px;
 }
 /* HEADER */
@@ -50,5 +50,4 @@ header{
     .hl-card:first-child{
         width:calc(66.6% - 10px);
     }
-
 }
