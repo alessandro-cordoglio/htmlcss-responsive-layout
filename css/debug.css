@@ -1,0 +1,10 @@
+/* DEBUG */
+.col{
+    height: 500px;
+}
+.debug .strat-col{
+    background-color: white;
+}
+.debug .testimonial-col:first-child{
+ background-color: black;
+}

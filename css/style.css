@@ -1,11 +1,8 @@
 @import url(reset.css);
 @import url(common.css);
 @import url(variables.css);
+@import url(debug.css);
 
-/* DEBUG */
-.debug .hl-card{
-    height: 500px;
-}
 /* HEADER */
 header{
     background-color: var(--blue);
@@ -22,15 +19,52 @@ header{
 }
 
 /* MAIN */
+/* //////////highlights//////// */
 .hl-card{
     background-color: var(--blue-light);
     margin-top: 25px;
 }
 
 .highlights-row{
-    padding-bottom: 100px ;
+    padding-bottom: 80px ;
     padding-top: 25px ;
 }
+
+/* //////////strategic//////// */
+.strat-row{
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+.strat-col{
+    margin-top: 30px ;
+}
+.strat-col:first-child{
+    margin-top: 0px ;
+}
+
+/* //////////testimonial//////// */
+.testimonial-col{
+    margin-top: 30px ;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE */
     /* header-responsive */
 @media screen and (min-width:769px) {
@@ -49,5 +83,27 @@ header{
     }
     .hl-card:first-child{
         width:calc(66.6% - 10px);
+    }
+}
+
+@media screen and (min-width:769px){
+    .strat-col{
+        width: calc(50% - 20px);
+        margin-top: 0;
+    }
+    .strat-col:last-child{
+        margin-left: 20px;
+    }
+    .strategic{
+        padding: 0 70px
+    }
+}
+
+@media screen and (min-width:436px){
+    .testimonial-col{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }
