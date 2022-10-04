@@ -42,11 +42,12 @@ header{
 .highlights-text p{
     margin: 25px 0;
 }
-
+.highlights-img{
+    text-align: center;
+}
 .highlights-img img{
-    width: 200px;
-    height: 200px;
-
+    width: 100%;
+    height: 100%;
 }
 .highlights-row{
     padding-bottom: 80px ;
@@ -68,8 +69,8 @@ header{
     text-align: center;
 }
 .strat-img img{
-    width: 300px;
-    height:300px;
+    width: 100%;
+    height:100%;
     
 }
 .strat-info h4{
@@ -81,7 +82,16 @@ header{
 }
 .strat-card{
     padding: 20px;
+    text-align: center;
 }
+.card-info h5{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.card-info p{
+    margin-bottom: 30px;
+}
+
 
 
 /* //////////testimonial//////// */
@@ -162,6 +172,10 @@ header{
         width:calc(33.3% - 10px);
         margin-left: 10px;
     }
+    .highlights-img{
+        text-align: left;
+        width: 50%;    
+    }
     .hl-card:first-child{
         width:calc(66.6% - 10px);
     }
@@ -188,6 +202,9 @@ header{
     /* highlisghts */
     .hl-card{
         display: flex;
+    }
+    .highlights-img{
+        width: 100%;    
     }
     /* strategic */
     .strat-col{
