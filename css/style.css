@@ -109,10 +109,13 @@ header{
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    object-fit: cover;
+    object-fit: cover ; 
 }
 .test-card{
     background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
 }
 .benefit-title{
     text-align: center;
@@ -124,6 +127,7 @@ header{
 /* //////////benefit//////// */
 .benefits{
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 .benefit-title{
     margin-bottom: 60px;
@@ -144,11 +148,40 @@ header{
     margin-bottom: 60px;
 }
 
+/* //////////about-us//////// */
+.about-us{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-us h4{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.p-first{
+    margin-bottom: 40px;
+}
+.p-second{
+    margin-bottom: 20px;
+}
+.about-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover ; 
+}
+.p-img{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+}
 
-
-
-
-
+.about-img a{
+    padding: 5px ;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
 
                             /* RESPONSIVE */
 
@@ -193,7 +226,16 @@ header{
         justify-content: space-between;
     }
     .benefit-card{
+        /* da cambiare */
         width: calc((100%/2) - 15px);
+        /*^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+    }
+    /* about-us */
+    .about-us{
+        display: flex;
+    }
+    .about-us-col{
+        width: calc((100%/2));
     }
 }
 
