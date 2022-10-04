@@ -1,3 +1,27 @@
+/* typography */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+h4{
+    font-size: 30px;
+}
+/* ////////// */
+
+/* COLORI DA BACKGROUND */
+.bg-primary-color-light{
+    background-color: var(--primary-color-light);
+}
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+}
+.bg-white{
+    background-color: white;
+}
+/* ////////////////// */
+
 .container{
     max-width: 1100px;
     padding:0 20px ;
@@ -14,6 +38,17 @@
 .col{
     width: 100%;
 }
-.purple{
-    background-color: var(--purple);
+.card{
+    border-radius: 30px;
+}
+
+.button{
+padding: 10px 15px;
+/* border: 1px solid black; */
+border-radius: 20px;
+text-decoration: none;
+}
+
+.font-black{
+    color: black;
 }
