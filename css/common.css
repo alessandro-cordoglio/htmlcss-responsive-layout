@@ -26,6 +26,7 @@ h4{
     max-width: 1100px;
     padding:0 20px ;
     margin: auto;
+    overflow: auto;
 }
 .row{
     display: flex;
@@ -51,4 +52,7 @@ text-decoration: none;
 
 .font-black{
     color: black;
+}
+.font-white{
+    color: white;
 }
