@@ -190,6 +190,7 @@ header{
     align-items: center;
     justify-content: center;
     overflow: auto;
+    padding-bottom: 70px ;
 }
 .download h2{
     font-weight: 400;
@@ -215,7 +216,7 @@ header{
 .bg-start{
     font-weight: 700;
     font-size: 18px;
-    width: 350px;
+    width: 310px;
     text-align: center;
     padding-top: 20px ;
     padding-bottom: 20px;
@@ -223,6 +224,21 @@ header{
     color: var(--secondary-color);
     margin-bottom: 30px;
 }
+
+/* FOOTER */
+footer{
+    background-color: #333333;
+}
+.footer-text{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer-text p:first-child{
+    margin-bottom: 30px;
+}
+
+
 
 
 
